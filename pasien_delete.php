@@ -2,7 +2,7 @@
 include_once('koneksi.php');
 
 // tangkap data dari url
-$id = $_GET['id'];
+$id = $_POST['id'];
 
 // buat query insert
 $query = "DELETE FROM pasien WHERE id='$id'";
