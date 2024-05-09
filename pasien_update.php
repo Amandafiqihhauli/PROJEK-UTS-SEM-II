@@ -2,7 +2,7 @@
 include_once('koneksi.php');
 
 // tangkap data dari form
-$id = $_GET['id'];
+$id = $_POST['id'];
 $nama = $_POST['nama'];
 $kode = $_POST['kode'];
 $email = $_POST['email'];
